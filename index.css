@@ -1,0 +1,31 @@
+body{
+background-color:goldenrod;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+text-decoration-color:whitesmoke;
+}
+p{background-color:maroon;
+    margin-left: unset;
+    margin-right: unset;
+    text-shadow: black;
+    shape-rendering: geometricPrecision;
+}
+.cards{
+    display: "grid";
+
+    grid-template-columns: "repeat(3, 1fr)";
+
+    grid-auto-rows: "auto";
+    Grid-auto-columns: "auto";
+
+
+    grid-gap: "1rem";
+    border: "2px solid maroon";
+
+    grid-column-gap: "50px";
+
+    border-radius: "4px";
+    padding: ".5rem",
+}
+
